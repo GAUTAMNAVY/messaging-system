@@ -15,6 +15,7 @@ function sendWhatsAppMessages() {
         method: 'POST',
         body: formData
     })
+        var url = "https://wa.me/"
     .then(response => response.json())
     .then(data => {
         alert(data.message);
