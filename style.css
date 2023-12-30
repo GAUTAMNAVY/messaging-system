@@ -1,0 +1,33 @@
+form{
+    background-image: url(Picture1.png);
+    background-color: aqua;
+    width : 70%;
+    height: 300px;
+    padding: 8px 10px
+}
+form label{
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+form textarea{
+    background-color:aquamarine;
+}
+form input{
+    width: auto;
+    padding: 12px 20px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+form button{
+    background-color:darkslategray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: dashed;
+    margin: 4px 2px;
+    cursor: pointer;
+}
